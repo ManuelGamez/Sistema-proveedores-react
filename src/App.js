@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import Home from './Componentes/PaginaInicial/Home'
+import Home from './Componentes/PaginaInicial/Home';
+import BodyInformacion from './Componentes/InformacionIndividual/BodyInformacion';
 import {
   HashRouter as Router,
   Switch,
@@ -12,7 +13,8 @@ const App = () => {
     <>
 <Router >
   <Switch>
-    <Route exact path="/"            component={Home} />
+    <Route exact path="/"                     component={Home} />
+    <Route exact path="/InformacionProveedor"  component={BodyInformacion}/>
   </Switch>
   </Router>
     </>

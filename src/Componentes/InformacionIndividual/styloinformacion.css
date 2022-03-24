@@ -1,0 +1,17 @@
+.imageninformacion{
+    width:  90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-top: 15px;
+    object-fit: contain;
+    background-color: #1A4262;   
+}
+.CAR{
+    margin-top: 15px;
+}
+.margen{
+    margin-right: 12px;
+}
+.tamaño{
+    font-size: 12px;
+}

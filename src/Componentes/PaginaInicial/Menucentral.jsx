@@ -1,6 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import lupa from '../../img/lupa.png';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  NavLink
+} from "react-router-dom";
 function Menucentral(props) {
   return (
     <>
@@ -83,7 +90,7 @@ function Menucentral(props) {
   <tbody>
     <tr>
       <th scope="row">1</th>
-      <td><button type="button" className='btn  btn-sm btn-outline-light colorbotonestabla'>ABCO, S.A DE C.V.</button></td>
+      <td> <NavLink to="./InformacionProveedor" type="button" className='btn  btn-sm btn-outline-light colorbotonestabla'>ABCO, S.A DE C.V.</NavLink></td>
       <td>contadorgeneral@abco.com.sv</td>
       <td>Servicios</td>
       <td>2250-7600</td>
